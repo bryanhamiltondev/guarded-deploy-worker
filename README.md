@@ -41,7 +41,7 @@ Hard-won, each cost a real incident:
 
 ## Requirements
 
-PHP 7.4+ (target the oldest PHP your host can boot). No dependencies. Write access to the web root, which on a cPanel box you already have.
+PHP 8.0+ (the skeleton uses `str_contains` / `str_starts_with` / `str_ends_with`; swap them for `strpos` shims if your host boots 7.4). No dependencies. Write access to the web root, which on a cPanel box you already have.
 
 ## License
 
